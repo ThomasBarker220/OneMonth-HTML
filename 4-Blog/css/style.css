@@ -22,8 +22,14 @@ Developed @ One Month in NYC
 	clear: both;
 }
 
-img {
+.alignleft{
+     float: left;
+     margin: 0 15px 15px 0;
+}
+
+.alignright{
      float: right;
+     margin: 0 0 15px 15px;
 }
 
 
@@ -46,6 +52,9 @@ img {
      padding: 50px;
      width: 700px;
      float: left;
+     top: 0;
+     bottom: 0;
+     height: 600px;
 }
 
 #footer {
@@ -58,5 +67,7 @@ img {
      width: 300px;
      float: left;
      padding: 50px;
-     padding-bottom: 522px;
+     height: 600px;
+     top: 0;
+     bottom: 0;
 }
