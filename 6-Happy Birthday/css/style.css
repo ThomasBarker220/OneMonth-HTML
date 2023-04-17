@@ -107,3 +107,7 @@ section.intro, section.contact {
 section.intro {
   background: white;
 }
+
+section.contact {
+  background: #DDD;
+}
